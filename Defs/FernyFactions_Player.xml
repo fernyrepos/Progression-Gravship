@@ -25,7 +25,6 @@
     <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
     <startingResearchTags>
       <li>ClassicStart</li>
-      <li>FernySpacerStart</li>
     </startingResearchTags>
     <startingTechprintsResearchTags>
       <li>ClassicStart</li>

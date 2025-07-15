@@ -1,0 +1,7 @@
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li>1.6</li>
+    <li IfModActive="ferny.progressionscenarios">Mods and Shit/Progression Scenarios</li>
+  </v1.6>
+</loadFolders>
