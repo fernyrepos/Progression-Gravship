@@ -21,5 +21,6 @@
         <li>Ludeon.RimWorld.Odyssey</li>
         <li>brrainz.harmony</li>
         <li>ferny.progressionscenarios</li>
+        <li>vanillaexpanded.gravship</li>
     </loadAfter>
 </ModMetaData>
