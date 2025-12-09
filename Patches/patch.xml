@@ -31,26 +31,35 @@
     </Operation>
 
 
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+        <li>Vanilla Gravship Expanded - Chapter 1</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="BasicGravtech"]/baseCost</xpath>
+                <value>
+                    <baseCost>1500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="StandardGravtech"]/baseCost</xpath>
+                <value>
+                    <baseCost>2500</baseCost>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="AdvancedGravtech"]/baseCost</xpath>
+                <value>
+                    <baseCost>3800</baseCost>
+                </value>
+            </li>
+        </operations>
+        </nomatch>
+    </Operation>
 
 
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="BasicGravtech"]/baseCost</xpath>
-        <value>
-            <baseCost>1500</baseCost>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="StandardGravtech"]/baseCost</xpath>
-        <value>
-            <baseCost>2500</baseCost>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="AdvancedGravtech"]/baseCost</xpath>
-        <value>
-            <baseCost>3800</baseCost>
-        </value>
-    </Operation>
 
     <Operation Class="PatchOperationAdd">
     <success>Always</success>
