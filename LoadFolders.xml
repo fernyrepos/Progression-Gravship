@@ -3,5 +3,6 @@
     <li>/</li>
     <li>1.6</li>
     <li IfModActive="ferny.progressionscenarios">Mods and Shit/Progression Scenarios</li>
+    <li IfModActive="rer.gravshiploanscenario">Mods and Shit/Debt Bound Gravship</li>
   </v1.6>
 </loadFolders>
