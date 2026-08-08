@@ -4,5 +4,6 @@
     <li>1.6</li>
     <li IfModActive="ferny.progressionscenarios">Mods and Shit/Progression Scenarios</li>
     <li IfModActive="rer.gravshiploanscenario">Mods and Shit/Debt Bound Gravship</li>
+    <li IfModActive="alt4s.OrbitalStationStart">Mods and Shit/Orbital Station Start</li>
   </v1.6>
 </loadFolders>
